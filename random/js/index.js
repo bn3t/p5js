@@ -10,7 +10,7 @@ function Spot(x, y, r, red, green, blue) {
 var spots = [];
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   frameRate(20);
   //noLoop();
 }
