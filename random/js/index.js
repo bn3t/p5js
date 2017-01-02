@@ -38,3 +38,12 @@ function draw() {
   //text(spots.length, 10, 500);
 
 }
+
+function mousePressed() {
+  var fs = fullscreen();
+  fullscreen(!fs);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
